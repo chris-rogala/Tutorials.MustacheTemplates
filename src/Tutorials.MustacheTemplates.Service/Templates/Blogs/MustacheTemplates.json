@@ -1,0 +1,6 @@
+{
+  "blogPostSummary": "In this post, we use Stubble.Core to generate emails about the post.  The post is just a quick 5 minute introduction to Mustache templates.  They are great for generating HTML, emails, SMS messages, configuration files, and source code.  The are used by Swagger CodeGen to create the SDKs.  It uses tags instead of logical statements like if, else, or loops.  You can check out the manual for Mustache 5 here http://mustache.github.io/mustache.5.html.",
+  "blogReleaseDate": "2/16/2019",
+  "blogSubject": "Introduction to Mustache templates in C#",
+  "sourceCodeRepository": "Tutorials.MustacheTemplates"
+}

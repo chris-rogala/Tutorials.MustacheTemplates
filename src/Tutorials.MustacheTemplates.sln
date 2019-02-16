@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorials.MustacheTemplates.Service", "Tutorials.MustacheTemplates.Service\Tutorials.MustacheTemplates.Service.csproj", "{895B50A7-3D38-42C6-9759-8391FA2EBFA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorials.MustacheTemplates.ConsumerApp", "Tutorials.MustacheTemplates.ConsumerApp\Tutorials.MustacheTemplates.ConsumerApp.csproj", "{C2A3F05A-6693-4523-A8D5-3AEABBCC2C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MustacheTemplateService.Sdk", "..\..\Tutorials.MustacheTemplates.Service.Sdk\src\MustacheTemplateService.Sdk\MustacheTemplateService.Sdk.csproj", "{DAC65B48-B433-49EC-8589-6423D71A6EA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		BasicSwagger|Any CPU = BasicSwagger|Any CPU
+		BasicSwaggerNoContent|Any CPU = BasicSwaggerNoContent|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		VersionedSwagger|Any CPU = VersionedSwagger|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{895B50A7-3D38-42C6-9759-8391FA2EBFA2}.BasicSwagger|Any CPU.ActiveCfg = BasicSwagger|Any CPU
+		{895B50A7-3D38-42C6-9759-8391FA2EBFA2}.BasicSwagger|Any CPU.Build.0 = BasicSwagger|Any CPU
+		{895B50A7-3D38-42C6-9759-8391FA2EBFA2}.BasicSwaggerNoContent|Any CPU.ActiveCfg = BasicSwaggerNoContent|Any CPU
+		{895B50A7-3D38-42C6-9759-8391FA2EBFA2}.BasicSwaggerNoContent|Any CPU.Build.0 = BasicSwaggerNoContent|Any CPU
+		{895B50A7-3D38-42C6-9759-8391FA2EBFA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895B50A7-3D38-42C6-9759-8391FA2EBFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895B50A7-3D38-42C6-9759-8391FA2EBFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895B50A7-3D38-42C6-9759-8391FA2EBFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895B50A7-3D38-42C6-9759-8391FA2EBFA2}.VersionedSwagger|Any CPU.ActiveCfg = VersionedSwagger|Any CPU
+		{895B50A7-3D38-42C6-9759-8391FA2EBFA2}.VersionedSwagger|Any CPU.Build.0 = VersionedSwagger|Any CPU
+		{C2A3F05A-6693-4523-A8D5-3AEABBCC2C8D}.BasicSwagger|Any CPU.ActiveCfg = BasicSwagger|Any CPU
+		{C2A3F05A-6693-4523-A8D5-3AEABBCC2C8D}.BasicSwagger|Any CPU.Build.0 = BasicSwagger|Any CPU
+		{C2A3F05A-6693-4523-A8D5-3AEABBCC2C8D}.BasicSwaggerNoContent|Any CPU.ActiveCfg = BasicSwaggerNoContent|Any CPU
+		{C2A3F05A-6693-4523-A8D5-3AEABBCC2C8D}.BasicSwaggerNoContent|Any CPU.Build.0 = BasicSwaggerNoContent|Any CPU
+		{C2A3F05A-6693-4523-A8D5-3AEABBCC2C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A3F05A-6693-4523-A8D5-3AEABBCC2C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A3F05A-6693-4523-A8D5-3AEABBCC2C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A3F05A-6693-4523-A8D5-3AEABBCC2C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A3F05A-6693-4523-A8D5-3AEABBCC2C8D}.VersionedSwagger|Any CPU.ActiveCfg = VersionedSwagger|Any CPU
+		{C2A3F05A-6693-4523-A8D5-3AEABBCC2C8D}.VersionedSwagger|Any CPU.Build.0 = VersionedSwagger|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.BasicSwagger|Any CPU.ActiveCfg = BasicSwagger|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.BasicSwagger|Any CPU.Build.0 = BasicSwagger|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.BasicSwaggerNoContent|Any CPU.ActiveCfg = BasicSwaggerNoContent|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.BasicSwaggerNoContent|Any CPU.Build.0 = BasicSwaggerNoContent|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.VersionedSwagger|Any CPU.ActiveCfg = VersionedSwagger|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.VersionedSwagger|Any CPU.Build.0 = VersionedSwagger|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {749D527C-0F60-456B-8577-2D5706D14B95}
+	EndGlobalSection
+EndGlobal

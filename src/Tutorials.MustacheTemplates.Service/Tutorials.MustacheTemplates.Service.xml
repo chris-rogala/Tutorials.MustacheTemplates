@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tutorials.MustacheTemplates.Service</name>
+    </assembly>
+    <members>
+        <member name="T:Tutorials.MustacheTemplates.Service.Swagger.ConfigureSwaggerOptions">
+            <summary>
+            Configures the Swagger generation options.
+            </summary>
+            <remarks>This allows API versioning to define a Swagger document per API version after the
+            <see cref="T:Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider"/> service has been resolved from the service container.</remarks>
+        </member>
+        <member name="M:Tutorials.MustacheTemplates.Service.Swagger.ConfigureSwaggerOptions.#ctor(Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Tutorials.MustacheTemplates.Service.Swagger.ConfigureSwaggerOptions"/> class.
+            </summary>
+            <param name="provider">The <see cref="T:Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider">provider</see> used to generate Swagger documents.</param>
+        </member>
+        <member name="M:Tutorials.MustacheTemplates.Service.Swagger.ConfigureSwaggerOptions.Configure(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions)">
+            <inheritdoc />
+        </member>
+        <member name="T:Tutorials.MustacheTemplates.Service.Swagger.SwaggerDefaultValues">
+            <summary>
+            Represents the Swagger/Swashbuckle operation filter used to document the implicit API version parameter.
+            </summary>
+            <remarks>This <see cref="T:Swashbuckle.AspNetCore.SwaggerGen.IOperationFilter"/> is only required due to bugs in the <see cref="T:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator"/>.
+            Once they are fixed and published, this class can be removed.</remarks>
+        </member>
+        <member name="M:Tutorials.MustacheTemplates.Service.Swagger.SwaggerDefaultValues.Apply(Swashbuckle.AspNetCore.Swagger.Operation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            Applies the filter to the specified operation using the given context.
+            </summary>
+            <param name="operation">The operation to apply the filter to.</param>
+            <param name="context">The current operation filter context.</param>
+        </member>
+        <member name="M:Tutorials.MustacheTemplates.Service.V1.Controllers.BlogPostNotificationsController.Generate(Tutorials.MustacheTemplates.Service.V1.ResourceModels.NewBlogPostNotification,System.Threading.CancellationToken)">
+            <summary>
+            Accepts a collection of email addresses and a name for a blog to generate a collection of messages for each email
+            </summary>
+            <param name="blogPostNotification">The model containing the email addresses and the name of the blog</param>
+            <param name="cancellationToken">Cancellation token</param>
+            <returns>A collection of <see cref="T:Tutorials.MustacheTemplates.Service.V1.ResourceModels.BlogPostNotification"/>s</returns>
+        </member>
+        <member name="T:Tutorials.MustacheTemplates.Service.V1.ResourceModels.BlogPostNotification">
+            <summary>
+            The notification with the email address and text
+            </summary>
+        </member>
+        <member name="P:Tutorials.MustacheTemplates.Service.V1.ResourceModels.BlogPostNotification.EmailAddress">
+            <summary>
+            The email address for the notification
+            </summary>
+        </member>
+        <member name="P:Tutorials.MustacheTemplates.Service.V1.ResourceModels.BlogPostNotification.Text">
+            <summary>
+            The text for the email
+            </summary>
+        </member>
+        <member name="T:Tutorials.MustacheTemplates.Service.V1.ResourceModels.NewBlogPostNotification">
+            <summary>
+            Model used to generate the <see cref="T:Tutorials.MustacheTemplates.Service.V1.ResourceModels.BlogPostNotification"/>
+            </summary>
+        </member>
+        <member name="P:Tutorials.MustacheTemplates.Service.V1.ResourceModels.NewBlogPostNotification.EmailAddresses">
+            <summary>
+            Collection of email addresses
+            </summary>
+        </member>
+        <member name="P:Tutorials.MustacheTemplates.Service.V1.ResourceModels.NewBlogPostNotification.BlogName">
+            <summary>
+            The name of the blog to locate the mustache template
+            </summary>
+        </member>
+        <member name="M:Tutorials.MustacheTemplates.Service.V2.Controllers.BlogPostNotificationsController.Generate(Tutorials.MustacheTemplates.Service.V2.ResourceModels.NewBlogPostNotification,System.Threading.CancellationToken)">
+            <summary>
+            Accepts a collection of email addresses and a name for a blog to generate a collection of messages for each email
+            </summary>
+            <param name="blogPostNotification">The model containing the email addresses and the name of the blog</param>
+            <param name="cancellationToken">Cancellation token</param>
+            <returns>A collection of <see cref="T:Tutorials.MustacheTemplates.Service.V2.ResourceModels.BlogPostNotification"/>s</returns>
+        </member>
+        <member name="T:Tutorials.MustacheTemplates.Service.V2.ResourceModels.BlogPostNotification">
+            <summary>
+            The notification with the email address and text
+            </summary>
+        </member>
+        <member name="P:Tutorials.MustacheTemplates.Service.V2.ResourceModels.BlogPostNotification.EmailAddress">
+            <summary>
+            The email address for the notification
+            </summary>
+        </member>
+        <member name="P:Tutorials.MustacheTemplates.Service.V2.ResourceModels.BlogPostNotification.Text">
+            <summary>
+            The text for the email
+            </summary>
+        </member>
+        <member name="T:Tutorials.MustacheTemplates.Service.V2.ResourceModels.NewBlogPostNotification">
+            <summary>
+            Model used to generate the <see cref="T:Tutorials.MustacheTemplates.Service.V2.ResourceModels.BlogPostNotification"/>
+            </summary>
+        </member>
+        <member name="P:Tutorials.MustacheTemplates.Service.V2.ResourceModels.NewBlogPostNotification.EmailAddresses">
+            <summary>
+            Collection of email addresses
+            </summary>
+        </member>
+        <member name="P:Tutorials.MustacheTemplates.Service.V2.ResourceModels.NewBlogPostNotification.BlogName">
+            <summary>
+            The name of the blog to locate the mustache template
+            </summary>
+        </member>
+    </members>
+</doc>

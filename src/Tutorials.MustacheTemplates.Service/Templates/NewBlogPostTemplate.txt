@@ -1,0 +1,13 @@
+﻿Hey there,
+
+We just released a new blog called '{{blogSubject}}' on {{blogReleaseDate}}.
+
+What will you learn?
+
+{{blogPostSummary}}
+
+I hope you like it!  You can find the source code on our public GitHub repository {{sourceCodeRepository}}.
+
+Thanks for following,
+
+Chris
