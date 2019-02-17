@@ -38,16 +38,16 @@ Global
 		{C2A3F05A-6693-4523-A8D5-3AEABBCC2C8D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C2A3F05A-6693-4523-A8D5-3AEABBCC2C8D}.VersionedSwagger|Any CPU.ActiveCfg = VersionedSwagger|Any CPU
 		{C2A3F05A-6693-4523-A8D5-3AEABBCC2C8D}.VersionedSwagger|Any CPU.Build.0 = VersionedSwagger|Any CPU
-		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.BasicSwagger|Any CPU.ActiveCfg = BasicSwagger|Any CPU
-		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.BasicSwagger|Any CPU.Build.0 = BasicSwagger|Any CPU
-		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.BasicSwaggerNoContent|Any CPU.ActiveCfg = BasicSwaggerNoContent|Any CPU
-		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.BasicSwaggerNoContent|Any CPU.Build.0 = BasicSwaggerNoContent|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.BasicSwagger|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.BasicSwagger|Any CPU.Build.0 = Release|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.BasicSwaggerNoContent|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.BasicSwaggerNoContent|Any CPU.Build.0 = Release|Any CPU
 		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.VersionedSwagger|Any CPU.ActiveCfg = VersionedSwagger|Any CPU
-		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.VersionedSwagger|Any CPU.Build.0 = VersionedSwagger|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.VersionedSwagger|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC65B48-B433-49EC-8589-6423D71A6EA3}.VersionedSwagger|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
